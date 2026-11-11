@@ -1,0 +1,5 @@
+node_modules
+out
+public/voice
+src/durations.json
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "voice": "af_heart",
+  "speed": 1.05,
+  "lines": [
+    { "say": "This video has a voiceover, and nobody recorded it." },
+    { "say": "The voice comes from Kokoro, an open text to speech model running on this computer." },
+    { "say": "Every line becomes a WAV file, and the video measures how long each one really is." },
+    { "say": "So the captions land on the words, without any forced alignment step." },
+    { "say": "Edit video dot json, run two commands, and you get your own Short." }
+  ]
+}

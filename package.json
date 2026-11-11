@@ -1,0 +1,33 @@
+{
+  "name": "remotion-kokoro-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vertical Shorts with Remotion and a local Kokoro TTS voiceover; captions timed to each line. No API keys.",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node -e \"require('fs').existsSync('src/durations.json')||require('fs').writeFileSync('src/durations.json','[]\\n')\"",
+    "tts": "node tts.mjs",
+    "studio": "remotion studio",
+    "render": "remotion render Short out/short.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.533",
+    "@remotion/google-fonts": "4.0.533",
+    "kokoro-js": "^1.2.1",
+    "react": "19",
+    "react-dom": "19",
+    "remotion": "4.0.533"
+  },
+  "devDependencies": {
+    "@types/react": "19",
+    "typescript": "^5.9.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "onnxruntime-node", "protobufjs", "sharp"]
+  }
+}
