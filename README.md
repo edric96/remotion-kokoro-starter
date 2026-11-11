@@ -42,7 +42,7 @@ Then `npm run tts && npm run render` again.
 3. `Captions` splits the line into chunks of 4 words or fewer (breaking at punctuation) and spreads them evenly over the audio.
 
 ## Want the full pipeline?
-This starter is the voice-and-captions core of **[Faceless Shorts Kit](https://hoanglm.gumroad.com/l/faceless-shorts-kit)**, the pipeline I use for a faceless story channel. The kit adds:
+This starter is the voice-and-captions core of **[Zero Cost Shorts](https://hoanglm.gumroad.com/l/zero-cost-shorts)**, the pipeline I use for a faceless story channel. The kit adds:
 - a retention-tuned story format: hook card on frame 0, labels, payoff that loops, AI video clips per image
 - music synthesized in code plus a frame-0 hit, so Content ID has nothing to match
 - a brand config: name, colours, 5 font presets
